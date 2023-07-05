@@ -8,11 +8,11 @@ Install into separate virtual environments as they each use different library ve
 
 conda create -n xt python=3.10
 conda activate xt
-pip install xturing
+pip install xturing==0.1.4
 
 conda create -n vl python=3.10
 conda activate vl
-pip install vllm
+pip install vllm==0.1.2
 
 conda create -n ql python=3.10
 conda activate ql
